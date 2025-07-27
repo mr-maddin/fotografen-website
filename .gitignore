@@ -1,0 +1,23 @@
+# Node & Abhängigkeiten (wenn du mal Backend nutzt)
+node_modules/
+
+# Editor & Systemdateien
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Fonts (wenn online eingebunden)
+fonts/
+
+# Adobe/Design
+*.xml
+*.ase
+*.xmp
+*.psd
+*.ai
+Mockups/
+videos/
+
+# Downloads (optional)
+downloads/

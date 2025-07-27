@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    background-image: url(/images/image-spell.jpg);
+    height: 100dvh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    touch-action: manipulation;
+}
+
+.black-box {
+    border: 1px solid rgb(174, 191, 173);
+    position: absolute;
+    width: 80%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    background-color: rgba(54, 54, 54, 0.35);
+    border-radius: 40px;
+}
+
+.circle {
+    position: relative;
+    top: -75px;
+    width: 150px; /* Breite des Kreises */
+    height: 150px; /* Höhe des Kreises */
+    border-radius: 50%; /* Kreisform */
+    
+}
+
+.circle img {
+    width: 100%; /* Bild auf 100% Breite setzen */
+    height: 100%; /* Bild auf 100% Höhe setzen */
+    object-fit: cover; /* Das Bild so zuschneiden, dass es den gesamten Container ausfüllt.*/
+    border-radius: inherit; /* Den gleichen Kreisradius auf das Bild anwenden */
+    object-fit: cover;
+}
+
+h1 {
+    font-family: "quiverleaf-cf", sans-serif;
+	font-weight: 300;
+    line-height: 0.7;
+    text-align: center;
+    color: white;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 1.3em;
+}
+
+.line-1, .line-2 {
+    width: 180px; /* Breite der Linie */
+    height: 2px; /* Höhe der Linie */
+    background-color: white; /* Farbe der Linie */
+    margin: 5px 0 10px 0; /* Platzierung der Linie (optional) */    
+}
+
+.button-middle {
+    height: 165px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.downloadable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-1, .button-2, .button-3, .button-4, .button-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-1:hover, .button-2:hover, .button-3:hover, .button-4:hover, .button-5:hover {
+    background: rgb(174, 191, 173);
+    color: #363636;
+    transition: 0.4s ease-out;
+}
+
+a {
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+}
+
+.bottom-buttons {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
