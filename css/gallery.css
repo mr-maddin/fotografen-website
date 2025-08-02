@@ -10,8 +10,7 @@
 
 body {
   height: 100dvh;
-  background-color: #363636;
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/05\ grid.jpg);
   background-size: cover;
 }
 
@@ -137,68 +136,20 @@ header a:hover::before {
   margin-bottom: 10px;
 }
 
-.aboutImage {
-  position: relative;
-  display: inline-block;
-  height: 600px;
+.gallerlySection {
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  width: 80%;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 375px 375px 375px 375px;
 }
 
-.aboutImage img {
-  display: block;
-  width: 400px;
+.gallerlySection img {
+  width: 250px;
   border-radius: 10px;
-  transition: 0.5s;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  filter: grayscale(0.2);
 }
 
-.aboutImage img:hover {
-  transform: scale(1.05);
-  filter: blur(3px) brightness(0.7) grayscale(1);
-}
-
-#equipment {
-  font-weight: 100;
-  position: relative;
-  bottom: 550px;
-  margin: 0 auto;
-  border-radius: 10px;
-  width: 75%;
-  margin: 0 auto;
-  color: #f2f0e7;
-  padding: 1rem;
-  opacity: 0;
-  transition: opacity 0.4s ease-in;
-}
-
-.aboutImage:hover #equipment {
-  opacity: 1;
-}
-
-.aboutSection {
-  display: flex;
-  flex-direction: row;
-  width: 70%;
-  justify-content: center;
-  margin: 0 auto;
-  gap: 3rem;
-}
-
-.aboutText {
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  padding-right: 3rem;
-}
-
-.aboutSection p {
-  font-size: 1.1rem;
-  text-align: justify;
-  height: 600px;
-}
-
-.headline {
-  font-size: 1.5rem;
-  font-family: "Lato", sans-serif;
-}
 .work-btn {
   background-color: transparent;
   border-radius: 10px;
