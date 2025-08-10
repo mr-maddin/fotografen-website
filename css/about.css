@@ -147,7 +147,7 @@ header a:hover::before {
   display: block;
   width: 400px;
   border-radius: 10px;
-  transition: 0.5s;
+  transition: ease-in 0.5s;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   filter: grayscale(0.2);
 }
