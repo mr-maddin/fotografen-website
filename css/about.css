@@ -153,7 +153,7 @@ header a:hover::before {
 }
 
 .aboutImage img:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   filter: blur(3px) brightness(0.7) grayscale(1);
 }
 
